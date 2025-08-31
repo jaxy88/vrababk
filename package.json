@@ -1,0 +1,45 @@
+{
+  "name": "bk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "@strapi/plugin-cloud": "5.23.0",
+    "@strapi/plugin-users-permissions": "5.23.0",
+    "@strapi/strapi": "5.23.0",
+    "better-sqlite3": "11.3.0",
+    "crypto": "^1.0.1",
+    "firebase-admin": "^13.4.0",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.27",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "socket.io": "^4.8.1",
+    "styled-components": "^6.0.0",
+    "twilio": "^5.8.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "723d177b-5f28-4fa0-b080-b2f0561cda17",
+    "installId": "d9e9044d15869463b1ab172672fbbe716b96a3a05af13e4241d015e9b903dc78"
+  }
+}

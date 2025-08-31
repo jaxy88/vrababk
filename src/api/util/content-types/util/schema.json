@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "utils",
+  "info": {
+    "singularName": "util",
+    "pluralName": "utils",
+    "displayName": "util"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
